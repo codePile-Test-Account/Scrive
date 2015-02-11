@@ -30,7 +30,7 @@
 >[Download v\[TBA\]](https://github.com/codePile/Scrive-Framework/archive/develop.zip) or [launch a factory](http://develop.scrive.io/)
 >
 #### Alpha Quality Build
->Scrive v[0.1.0] is the current **alpha** series on the `release/v0.1.0` branch and the push to beta is scheduled for [TBA]. Information about whats new in this version can be viewed in the in the [CHANGELOG.md](https://github.com/codePile/Scrive-Framework/blob/release/CHANGELOG.md)
+>Scrive v[0.1.0] is the current **alpha/nightly** series on the `release/v0.1.0` branch and the push to beta is scheduled for [TBA]. Information about whats new in this version can be viewed in the in the [CHANGELOG.md](https://github.com/codePile/Scrive-Framework/blob/release/CHANGELOG.md)
 >
 >[Download v\[TBA\]](https://github.com/codePile/Scrive-Framework/archive/release.zip) or [launch a factory](http://alpha.scrive.io/)
 >

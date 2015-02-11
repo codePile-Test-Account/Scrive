@@ -1,0 +1,21 @@
+{
+    "name": "codePile/Scrive",
+    "type": "library",
+    "description": "",
+    "keywords": ["cmf"],
+    "homepage": "http://scrive.codepile.co/",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jason Alan Kennedy",
+            "email": "jason.kennedy@codepile.co"
+        }
+    ]
+    "require": {
+        "php": ">=5.2.4",
+        "twig/twig": "1.18.0",
+        "michelf/php-markdown": "1.4.1",
+        "composer-plugin-api": "*",
+        "codepile/scrive-directory-installer": "dev-master"
+    }
+}
