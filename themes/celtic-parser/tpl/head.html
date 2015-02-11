@@ -1,0 +1,41 @@
+<head>
+{% block head %}
+
+	<meta charset="utf-8" />
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-touch-fullscreen" content="yes">
+
+	<title>{{ meta.title }} &#8226; {{ site_title }}</title>
+	<meta name="description" content="{{ meta.description }}">
+
+	<link rel="icon" type="image/png" href="{{ theme_img }}/favicon.ico" />
+	<link rel="canonical" href="{{ base_url }}">
+
+{% if meta.robots %}
+	<meta name="robots" content="{{ meta.robots }}">
+{% endif %}
+
+	<style>
+		[data-sr] { visibility: hidden; }
+	</style>
+
+{# required css files #}
+{% block stylesheets %}
+
+	{{ css("font-awesome") }}
+	{{ coreCSS("pure-base") }}
+	{{ coreCSS("pure-responsive") }}
+	{{ css("snap") }}
+	{{ css("theme") }}
+
+{% endblock stylesheets %}
+
+	<!--[if lt IE 9]>
+		{{ coreJS("html5shiv-printshiv") }}
+	<![endif]-->
+
+{% endblock head%}
+</head>

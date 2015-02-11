@@ -1,0 +1,265 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "62a45fd593d92ce85c4072f537308423",
+    "packages": [
+        {
+            "name": "codepile/scrive-directory-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/codePile/scrive-directory-installer.git",
+                "reference": "b9c3cfb3e2ccb34323f190cf4f747e8bf6d9fb3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/codePile/scrive-directory-installer/get/b9c3cfb3e2ccb34323f190cf4f747e8bf6d9fb3e.zip",
+                "reference": "b9c3cfb3e2ccb34323f190cf4f747e8bf6d9fb3e",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "1.0.0",
+                "php": ">=5.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Composer\\ScriveDirectoryInstaller\\ExtensionInstallerPlugin",
+                    "Composer\\ScriveDirectoryInstaller\\ModuleInstallerPlugin",
+                    "Composer\\ScriveDirectoryInstaller\\ThemeInstallerPlugin"
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\ScriveDirectoryInstaller": "src/"
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Alan Kennedy",
+                    "email": "jason.kennedy@codepile.org"
+                }
+            ],
+            "description": "A composer plugin, to help install Scrive CMS/F packages in custom paths.",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin"
+            ],
+            "time": "2015-02-03 19:51:10"
+        },
+        {
+            "name": "codepile/scrive-extension-asset-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/codePile/scrive-extension-asset-manager.git",
+                "reference": "403e5f18753a094d49349e9c22483f6b9b30e7ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/codePile/scrive-extension-asset-manager/get/403e5f18753a094d49349e9c22483f6b9b30e7ff.zip",
+                "reference": "403e5f18753a094d49349e9c22483f6b9b30e7ff",
+                "shasum": ""
+            },
+            "require": {
+                "codepile/scrive-directory-installer": "dev-master",
+                "composer-plugin-api": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0",
+                "twig/twig": "1.18.0"
+            },
+            "type": "scrive-extension",
+            "autoload": {
+                "classmap": [
+                    "lib"
+                ]
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Assarte D'Raven",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Jason Alan Kennedy",
+                    "role": "translator"
+                }
+            ],
+            "description": "TwigAssets - On-the-fly assets manager for Twig template engine for the Scrive framework",
+            "homepage": "https://bitbucket.org/codePile/scrive-ext-assets/",
+            "keywords": [
+                "assets",
+                "twig"
+            ],
+            "time": "2015-02-03 19:36:03"
+        },
+        {
+            "name": "codepile/scrive-theme-celtic-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/codePile/scrive-theme-celtic-parser.git",
+                "reference": "9ae1468326b3df1685ced3043e3eddad58a20da3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/codePile/scrive-theme-celtic-parser/get/9ae1468326b3df1685ced3043e3eddad58a20da3.zip",
+                "reference": "9ae1468326b3df1685ced3043e3eddad58a20da3",
+                "shasum": ""
+            },
+            "require": {
+                "codepile/scrive-directory-installer": "dev-master",
+                "composer-plugin-api": "*"
+            },
+            "type": "scrive-theme",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Alan Kennedy",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Celtic-Parser - Modern theme for the Scrive CMS/F",
+            "homepage": "https://bitbucket.org/codePile/scrive-theme-celtic-parser/",
+            "keywords": [
+                "Scrive",
+                "celtic-parser",
+                "theme"
+            ],
+            "time": "2015-02-03 20:38:43"
+        },
+        {
+            "name": "michelf/php-markdown",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/michelf/php-markdown.git",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-lib": "1.4.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Michelf": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Michel Fortin",
+                    "email": "michel.fortin@michelf.ca",
+                    "homepage": "http://michelf.ca/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "John Gruber",
+                    "homepage": "http://daringfireball.net/"
+                }
+            ],
+            "description": "PHP Markdown",
+            "homepage": "http://michelf.ca/projects/php-markdown/",
+            "keywords": [
+                "markdown"
+            ],
+            "time": "2014-05-05 02:43:50"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "reference": "4cf7464348e7f9893a93f7096a90b73722be99cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-01-25 17:32:08"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "codepile/scrive-directory-installer": 20,
+        "codepile/scrive-extension-asset-manager": 20,
+        "codepile/scrive-theme-celtic-parser": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.2.4"
+    },
+    "platform-dev": []
+}
