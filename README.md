@@ -7,7 +7,7 @@
 **If this is your first time hearing about Scrive**, we recommend starting with the [scrive website](http://scrive.io) to learn about what Scrive is and why it's conception came about. Farther reading about the developing organization, [codePile.PBC](http://codepile.org), is also recommended. Both these sites will help you (the developer/contributor) understand the concepts and philosophies within the Scrive brand and the public benefit organization behind it.
 
 
-**If you are looking for the complete functioning CMS/Framework, head over to [this repo](https://github.com/codePile/Scrive-Framework). 
+**If you are looking for the complete functioning CMS/Framework**, head over to [this repo](https://github.com/codePile/Scrive-Framework). 
 
 
 ### Developers
@@ -22,21 +22,45 @@
 
 ### Release Status
 #### Stable Production Release
->Scrive v[TBA] is the current **stable/production** series on the `master` branch was released on [TBA].
+>**Scrive v[TBA]** is the current **stable/production** series on the `master` branch was released on [TBA].
 >You can learn about what is new with Scrive v[TBA] in the [Release Announcement](http://scrive.io/blog/release-announcements/) or bullet-ed in the [CHANGELOG.md](https://github.com/codePile/Scrive-Framework/blob/master/CHANGELOG.md)
 >
->[Download v\[TBA\]](https://github.com/codePile/Scrive-Framework/archive/master.zip) or [launch a factory](http://launch.scrive.io/)
+>**How to Update your Scrive Install**
 >
+>_Current Users:_
+>**_Easy:_** TODO using Composer (via CMS)
+>**_Hard:_ **[Download v\[TBA\]](https://github.com/codePile/Scrive-CMS-Library/archive/master.zip)
+>
+>or
+>
+>**_Try It Out_** by [launching a new factory](http://launch.scrive.io/)
+>.
 #### Beta Quality Build
 >Scrive v[TBA] is the current **beta** series on the `develop` branch and the release as a production build is scheduled for [TBA]. Information about whats new in this version can be viewed in the in the [CHANGELOG.md](https://github.com/codePile/Scrive-Framework/blob/master/CHANGELOG.md)
 >
->[Download v\[TBA\]](https://github.com/codePile/Scrive-Framework/archive/develop.zip) or [launch a factory](http://develop.scrive.io/)
+>**How to Update your Scrive to a beta build**
 >
+>_Current Users:_
+>**_Easy:_** TODO using Composer (via CMS)
+>**_Hard:_ **[Download v\[TBA\]](https://github.com/codePile/Scrive-CMS-Library/archive/develop.zip)
+>
+>or
+>
+>**_Try It Out_** by [launching a new factory](http://beta.scrive.io/)
+>.
 #### Alpha Quality Build
 >Scrive v[0.1.0] is the current **alpha/nightly** series on the `release/v0.1.0` branch and the push to beta is scheduled for [TBA]. Information about whats new in this version can be viewed in the in the [CHANGELOG.md](https://github.com/codePile/Scrive-Framework/blob/release/CHANGELOG.md)
 >
->[Download v\[TBA\]](https://github.com/codePile/Scrive-Framework/archive/release.zip) or [launch a factory](http://alpha.scrive.io/)
+>**How to Update your Scrive Install to an alpha build**
 >
+>_Current Users:_
+>**_Easy:_** TODO using Composer (via CMS)
+>**_Hard:_ **[Download v\[TBA\]](https://github.com/codePile/Scrive-CMS-Library/archive/release/v[TBA].zip)
+>
+>or
+>
+>**_Try It Out_** by [launching a new factory](http://alpha.scrive.io/)
+>.
 
 
 ## License
