@@ -1,0 +1,29 @@
+{
+    "name": "codePile/Scrive-lib",
+    "type": "library",
+    "description": "",
+    "keywords": ["cmf"],
+    "homepage": "http://scrive.codepile.co/",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jason Alan Kennedy",
+            "homepage": "https://github.com/Celtic-Parser",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "user.support@codepile.org",
+        "email": "developer.support@codepile.org",
+        "issues": "https://github.com/codePile/Scrive-Framework/issues",
+        "wiki": "https://github.com/codePile/Scrive-Framework/wiki",
+        "source": "https://github.com/codePile/Scrive-Framework"
+    },
+    "require": {
+        "php": ">=5.2.4",
+        "twig/twig": "1.18.0",
+        "michelf/php-markdown": "1.4.1",
+        "composer-plugin-api": "*",
+        "codepile/scrive-directory-installer": "dev-master"
+    }
+}

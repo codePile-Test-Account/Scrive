@@ -1,19 +1,18 @@
 <?php
 
 /**
- * Scrive
+ * Scrive Configuration
  * 
- * @pakage scrive
- * @subpakage /
  */
  
  /**
- * @since Scrive.CORE-Alpha
+ * @since Scrive-Framework v0.1.0
  * 
- * @author Jason Alan Kennedy <https://bitbucket.org/jasonalankennedy>
- * @Link https://bitbucket.org/codePile/scrive-development-bundle
+ * @author Jason Alan Kennedy <https://github.com/Celtic-Parser>
+ * @Link https://github.com/codePile/Scrive-Framework
  * @license http://opensource.org/licenses/GPL-3.0
- * Copyright (c) 2015 codePin PBC
+ * Copyright (c) 2015 codePin.PBC
+ * 
  */
 
    //////////////////////////////////////////////////////////////////////
@@ -21,7 +20,7 @@
  ///  See: userdocs.scrive.io/wiki/display/SUD/Configuration+Setup  ///
 //////////////////////////////////////////////////////////////////////
 
-$config['site_title'] = '{{scrive.io}}';	// Site title
+$config['site_title'] = '';	// Site title
 $config['base_url'] = '';	// Override base URL (e.g. http://example.com)
 $config['theme'] = 'celtic-parser'; 				// Set the theme (defaults to "default")
 $config['date_format'] = 'jS M Y';			// Set the PHP date format
@@ -42,7 +41,7 @@ $config['navigation']['hide_folder'] = array(
 );
 
 //	Google Analytics -------------------------------------------------------------------------------->
-$config['GAnalytics']['trackingID'] = 'UA-56683726-1';	// The Google Analytics ID for your site "UA-5xxxxxxx-#"
+$config['GAnalytics']['trackingID'] = '';	// The Google Analytics ID for your site "UA-5xxxxxxx-#"
 $config['GAnalytics']['demoint'] = false;				// Demographics and Interest Reports: "true" or "false"
 $config['GAnalytics']['linkatt'] = true;				//Enhanced link attribution: "true" or "false"
 
