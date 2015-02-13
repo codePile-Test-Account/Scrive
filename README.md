@@ -1,10 +1,13 @@
 # Scrive
 
 
-**Welcome to Scrive** - The open-source [web application framework](http://en.wikipedia.org/wiki/Web_application_framework) project committed to [seo](http://en.wikipedia.org/wiki/Search_engine_optimization) at the code level and promising everything is [vulnerability](http://en.wikipedia.org/wiki/Vulnerability_(computing)) free while providing a best-in-class [ux](http://en.wikipedia.org/wiki/User_experience) for both end-user and the developer.
+**Welcome** - This is the source library files for the [Scrive Framework](https://github.com/codePile/Scrive-Framework).
 
 
 **If this is your first time hearing about Scrive**, we recommend starting with the [scrive website](http://scrive.io) to learn about what Scrive is and why it's conception came about. Farther reading about the developing organization, [codePile.PBC](http://codepile.org), is also recommended. Both these sites will help you (the developer/contributor) understand the concepts and philosophies within the Scrive brand and the public benefit organization behind it.
+
+
+**If you are looking for the complete functioning CMS/Framework, head over to [this repo](https://github.com/codePile/Scrive-Framework). 
 
 
 ### Developers
@@ -35,19 +38,6 @@
 >[Download v\[TBA\]](https://github.com/codePile/Scrive-Framework/archive/release.zip) or [launch a factory](http://alpha.scrive.io/)
 >
 
-### Documentation
-**Either if you are a developer, designer or the end-user**, it is advisable to read the [user docs](https://github.com/codePile/Scrive-Framework/wiki/User-Documentation) to get familiar with the application before diving into writing any code.
-
- - **The source of documentation for developers** working with (or contributing to) the Scrive project is located in this project's [wiki](https://github.com/codePile/Scrive-Framework/wiki).
- - **Documentation for designers/themers** can be found in the themers section of the wiki.
-
-Keep in mind
-The Docs are rough drafts for contributing to Scrive. (help me? Gulp!)
-Work there is still in progress - mostlikly it will always will be.
-Some pages are only outlines and there are many other topics left to go where no man has gone before.
-
-## Stay tuned: more to come!
-
 
 ## License
 Codepile.PBC - Vulnerability validation & web content management solutions
@@ -72,5 +62,5 @@ You should have received a copy of the GNU General Public License along with thi
  * @license http://opensource.org/licenses/GPL-3.0
  * Copyright (c) 2014-2015 Scrive.IO, PBC
  */
- ```
+```
 
