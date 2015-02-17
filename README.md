@@ -7,7 +7,7 @@
 **If this is your first time hearing about Scrive**, we recommend starting with the [scrive website](http://scrive.io) to learn about what Scrive is and why it's conception came about. Farther reading about the developing organization, [codePile.PBC](http://codepile.org), is also recommended. Both these sites will help you (the developer/contributor) understand the concepts and philosophies within the Scrive brand and the public benefit organization behind it.
 
 
-**If you are looking for the complete functioning CMS/Framework, head over to [this repo](https://github.com/codePile/Scrive-Framework). 
+**If you are looking for the complete functioning CMS/Framework**, head over to [this repo](https://github.com/codePile/Scrive-Framework). 
 
 
 ### Developers

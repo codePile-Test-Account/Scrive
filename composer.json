@@ -1,8 +1,8 @@
 {
     "name": "codePile/Scrive-lib",
     "type": "scrive-lib",
-    "description": "",
-    "keywords": ["cmf"],
+    "description": "These arer the source library files for the Scrive Framework.",
+    "keywords": ["scrive","libs","cms","cmf"],
     "homepage": "http://scrive.codepile.co/",
     "license": "GPL-3.0",
     "authors": [
@@ -15,9 +15,9 @@
     "support": {
         "email": "user.support@codepile.org",
         "email": "developer.support@codepile.org",
-        "issues": "https://github.com/codePile/Scrive-Framework/issues",
-        "wiki": "https://github.com/codePile/Scrive-Framework/wiki",
-        "source": "https://github.com/codePile/Scrive-Framework"
+        "issues": "https://github.com/codePile/Scrive-CMF-Library/issues",
+        "wiki": "https://github.com/codePile/Scrive-CMF-Library/wiki",
+        "source": "https://https://github.com/codePile/Scrive-CMF-Library"
     },
     "require": {
         "composer-plugin-api": "*",

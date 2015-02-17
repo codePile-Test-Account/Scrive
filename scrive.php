@@ -13,10 +13,10 @@
 
 define('CONTENT_DIR',    ROOT_DIR .  'content/'     );
 define('THEMES_DIR',     ROOT_DIR .  'themes/'      );
-define('src_DIR',        ROOT_DIR .  '.src/'        );
-define('VENDOR_DIR',     src_DIR .   'vendor/'      );
-define('LIB_DIR',        src_DIR .   'lib/'         );
-define('EXTENSION_DIR',  LIB_DIR .   'extensions/'  );
+define('SRC_DIR',        ROOT_DIR .  '.src/'        );
+define('EXTENSION_DIR',  SRC_DIR .   'extensions/'  );
+define('VENDOR_DIR',     SRC_DIR .   'vendor/'      );
+define('LIB_DIR',        SRC_DIR .   'lib/'         );
 define('MODULE_DIR',     LIB_DIR .   'modules/'     );
 define('RESOURCE_DIR',   LIB_DIR .   'resources/'   );
 define('CONTENT_EXT',                '.md'          );
@@ -26,10 +26,12 @@ require_once(VENDOR_DIR . 'autoload.php');
 
 use \Michelf\MarkdownExtra;
 
+
 class scrive
 {
     
     private $modules;
+    private $plugins;
     
     /**
      * The constructor carries out all the processing in scrive.
@@ -175,15 +177,27 @@ class scrive
     }
     
     /**
-     * Load any modules
+     * Load any modules / Plugins
      */
     protected function load_modules()
     {
         
         $this->modules = array();
+        $settings = $this->get_config();
+        $plugins       = $this->get_files(THEMES_DIR . $settings['theme'] . '/plugins', '.php');
         $modules       = $this->get_files(MODULE_DIR, '.php');
         if (!empty($modules)) {
             foreach ($modules as $module) {
+                include_once($module);
+                $module_name = preg_replace("/\\.[^.\\s]{3}$/", '', basename($module));
+                if (class_exists($module_name)) {
+                    $obj             = new $module_name;
+                    $this->modules[] = $obj;
+                }
+            }
+        }
+        if (!empty($plugins)) {
+            foreach ($plugins as $module) {
                 include_once($module);
                 $module_name = preg_replace("/\\.[^.\\s]{3}$/", '', basename($module));
                 if (class_exists($module_name)) {
