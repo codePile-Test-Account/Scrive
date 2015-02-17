@@ -1,0 +1,26 @@
+{
+    "name": "codepile/scrive-src-lib",
+    "type": "scrive-libs",
+    "description": "These are the source library files for the Scrive Framework.",
+    "keywords": ["scrive","libs","cms","cmf"],
+    "homepage": "http://scrive.codepile.co/",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jason Alan Kennedy",
+            "homepage": "https://github.com/Celtic-Parser",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "user.support@codepile.org",
+        "email": "developer.support@codepile.org",
+        "issues": "https://github.com/codePile/Scrive-CMF-Library/issues",
+        "wiki": "https://github.com/codePile/Scrive-CMF-Library/wiki",
+        "source": "https://https://github.com/codePile/Scrive-CMF-Library"
+    },
+    "require": {
+        "composer-plugin-api": "*",
+        "codepile/scrive-directory-installer": "dev-master"
+    }
+}
