@@ -1,6 +1,6 @@
 {
     "name": "codePile/Scrive-lib",
-    "type": "scrive-lib",
+    "type": "scrive-libs",
     "description": "These arer the source library files for the Scrive Framework.",
     "keywords": ["scrive","libs","cms","cmf"],
     "homepage": "http://scrive.codepile.co/",
