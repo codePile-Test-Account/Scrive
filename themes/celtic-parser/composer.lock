@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "001a3784f0c4d70dc3703334fb61f3df",
+    "packages": [
+        {
+            "name": "codepile/scrive-plugin-breadcrumbs",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codePile/Scrive-Plugin-Breadcrumbs.git",
+                "reference": "b8b247cd97f0cab505b6d68d42d304d4b518cbe8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codePile/Scrive-Plugin-Breadcrumbs/zipball/b8b247cd97f0cab505b6d68d42d304d4b518cbe8",
+                "reference": "b8b247cd97f0cab505b6d68d42d304d4b518cbe8",
+                "shasum": ""
+            },
+            "type": "plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jason Alan Kennedy",
+                    "homepage": "https://github.com/Celtic-Parser",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Adds breadcrumbs for navigation and search engine detection in the Scrive CMS",
+            "homepage": "http://scrive.io",
+            "keywords": [
+                "Scrive",
+                "breadcrumbs",
+                "cmf",
+                "cms",
+                "navigation"
+            ],
+            "time": "2015-02-17 21:30:34"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
