@@ -25,8 +25,8 @@ handlers:
   upload: .+\.(gif|png|jpg)$
   application_readable: true
 
-# PageSpeed overide settings
-#pagespeed:
+# PageSpeed overide settings do not function via Codenvy deploy
+# pagespeed:
 #  enabled_rewriters:
 #  - MinifyCss
 #  - RemoveComments
