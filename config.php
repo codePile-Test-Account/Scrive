@@ -9,7 +9,7 @@
  * @since Scrive-Framework v0.1.0
  * 
  * @author Jason Alan Kennedy <https://github.com/Celtic-Parser>
- * @Link https://github.com/codePile/Scrive-Framework
+ * @Link https://github.com/codePile/Scrive
  * @license http://opensource.org/licenses/GPL-3.0
  * Copyright (c) 2015 codePin.PBC
  * 
