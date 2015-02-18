@@ -184,7 +184,7 @@ class scrive
         
         $this->modules = array();
         $settings = $this->get_config();
-        $plugins       = $this->get_files(THEMES_DIR . $settings['theme'] . '/plugins', '.php');
+        $plugins       = $this->get_files(THEMES_DIR . $settings['theme'] . '/vendor/codepile', '.php');
         $modules       = $this->get_files(MODULE_DIR, '.php');
         if (!empty($modules)) {
             foreach ($modules as $module) {
