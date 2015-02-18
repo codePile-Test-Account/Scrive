@@ -4,6 +4,9 @@
 **Welcome to Scrive** - The open-source [web application framework](http://en.wikipedia.org/wiki/Web_application_framework) project committed to [seo](http://en.wikipedia.org/wiki/Search_engine_optimization) at the code level and promising everything is [vulnerability](http://en.wikipedia.org/wiki/Vulnerability_(computing)) free while providing a best-in-class [ux](http://en.wikipedia.org/wiki/User_experience) for both end-user and the developer.
 
 
+[![alt](https://codenvy.com/factory/resources/factory-white.png)](https://codenvy.com/factory?id=m7bbw2emhdxykxts)
+
+
 **If this is your first time hearing about Scrive**, we recommend starting with the [scrive website](http://scrive.io) to learn about what Scrive is and why it's conception came about. Farther reading about the developing organization, [codePile.PBC](http://codepile.org), is also recommended. Both these sites will help you (the developer/contributor) understand the concepts and philosophies within the Scrive brand and the public benefit organization behind it.
 
 
