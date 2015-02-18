@@ -20,13 +20,13 @@
  ///  See: userdocs.scrive.io/wiki/display/SUD/Configuration+Setup  ///
 //////////////////////////////////////////////////////////////////////
 
-$config['site_title'] = '';	// Site title
-$config['base_url'] = '';	// Override base URL (e.g. http://example.com)
-$config['theme'] = 'celtic-parser'; 				// Set the theme (defaults to "default")
-$config['date_format'] = 'jS M Y';			// Set the PHP date format
-$config['pages_order_by'] = 'alpha';		// Order pages by "alpha" or "date"
+$config['site_title'] = '';	         // Site title
+$config['base_url'] = '                // Override base URL (e.g. http://example.com)
+$config['theme'] = 'celtic-parser'; 	// Set the theme (defaults to "default")
+$config['date_format'] = 'jS M Y';		// Set the PHP date format
+$config['pages_order_by'] = 'alpha';	// Order pages by "alpha" or "date"
 $config['pages_order'] = 'desc';			// Order pages "asc" or "desc"
-$config['excerpt_length'] = 50;				// The pages excerpt length (in # of words)
+$config['excerpt_length'] = 50;			// The pages excerpt length (in # of words)
 $config['locale'] = 'EN';					// Set the default local language
 
 //	Exclude pages by it's title and/or folders by name from navigation header ----------------------->
